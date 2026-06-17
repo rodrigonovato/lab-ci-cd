@@ -1,4 +1,4 @@
-FROM python:3.10-alpine3.21
+FROM python:3.10.20-alpine3.24
 LABEL MANTAINER="Rodrigo Novato"
 
 WORKDIR /app
