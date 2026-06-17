@@ -75,7 +75,7 @@ jobs:
           exit-code: '1'
           ignore-unfixed: true
           vuln-type: 'os,library'
-          severity: 'CRITICAL'
+          severity: 'HIGH'
 
       - name: Push image
         run: |
